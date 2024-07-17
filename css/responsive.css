@@ -9,3 +9,14 @@
         width: 700px;
     }
 }
+
+
+/*
+----- Responsive Mobile
+*/
+
+@media screen and (max-width:576px){
+    .container {
+        width: 450px;
+    }
+}
