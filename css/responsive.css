@@ -16,9 +16,9 @@
 --------------------------*/
 
 @media screen and (max-width:576px){
-   
     .container {
         width: 500px;
+        padding-bottom: 3em;
     }
 
     .row{
@@ -37,7 +37,6 @@
 	width: 100%;
     } 
 
-
    /*- Steep Section -*/
 
    .steps .col {
@@ -46,12 +45,19 @@
 
     .steps {
        margin: 0;
+       padding-bottom: 3em;
     }
-
 
     /*- Why-us -*/
     .why-us {
         background-color: black;
         padding-top: 3em;
+        margin-bottom: 0;
     }
 }
+
+/*------------------------------------------
+  Vorrei, per favore, avere un feed-back dei sbagli
+  che probabilmente ho fatto in questo esercizio!
+  Grazie al tutor!
+  ---------------------------------------------*/
