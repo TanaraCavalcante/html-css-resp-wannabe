@@ -17,6 +17,16 @@
 
 @media screen and (max-width:576px){
     .container {
-        width: 450px;
+        width: 500px;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .col{
+        padding: 0;
     }
 }
