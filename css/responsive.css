@@ -1,8 +1,8 @@
 
 
-/* 
----- Responsive Tablet
-*/
+/* -----------------------
+     Responsive Tablet
+-------------------------*/
 
 @media screen and (max-width:768px){
     .container{
@@ -11,11 +11,12 @@
 }
 
 
-/*
------ Responsive Mobile
-*/
+/*------------------------
+     Responsive Mobile
+--------------------------*/
 
 @media screen and (max-width:576px){
+   
     .container {
         width: 500px;
     }
@@ -28,5 +29,29 @@
 
     .col{
         padding: 0;
+    }
+    
+   /*-Lessons Section-*/
+
+   .lessons .col {
+	width: 100%;
+    } 
+
+
+   /*- Steep Section -*/
+
+   .steps .col {
+	width: 100%;
+    }
+
+    .steps {
+       margin: 0;
+    }
+
+
+    /*- Why-us -*/
+    .why-us {
+        background-color: black;
+        padding-top: 3em;
     }
 }
