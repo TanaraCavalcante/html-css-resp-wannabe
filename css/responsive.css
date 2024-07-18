@@ -3,11 +3,9 @@
 /* -----------------------
      Responsive Tablet
 -------------------------*/
-
-@media screen and (max-width:768px){
-    .container{
-        width: 700px;
-    }
+.container{
+    width: 100%;
+    max-width: 1140px;
 }
 
 
@@ -16,48 +14,35 @@
 --------------------------*/
 
 @media screen and (max-width:576px){
-    .container {
-        width: 500px;
-        padding-bottom: 3em;
-    }
-
+   
     .row{
         flex-direction: column;
         align-items: center;
         gap: 40px;
     }
 
-    .col{
-        padding: 0;
+    .row .col{
+        width: 100%;
     }
     
-   /*-Lessons Section-*/
-
-   .lessons .col {
-	width: 100%;
-    } 
-
-   /*- Steep Section -*/
-
-   .steps .col {
-	width: 100%;
+    .lessons{
+        padding-bottom: 3em;
     }
 
     .steps {
+       padding: 3em 0;
        margin: 0;
-       padding-bottom: 3em;
     }
 
-    /*- Why-us -*/
     .why-us {
         background-color: black;
-        padding-top: 3em;
+        padding: 3em 0;
         margin-bottom: 0;
     }
 }
 
-/*------------------------------------------
+/*--------------------------------------------------
   Vorrei, per favore, avere un feed-back dei sbagli
   che probabilmente ho fatto in questo esercizio!
   Grazie al tutor!
-  ---------------------------------------------*/
+  ------------------------------------------------*/
